@@ -1,4 +1,4 @@
-package dcn.infos.ru.test;
+package dcn.infos.ru.actors;
 
 import akka.actor.Props;
 import akka.actor.UntypedActor;

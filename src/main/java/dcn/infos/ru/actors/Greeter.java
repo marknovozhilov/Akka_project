@@ -16,14 +16,15 @@
 //import akka.pattern.Patterns;
 //import akka.util.Timeout;
 
-package dcn.infos.ru.test;
+package dcn.infos.ru.actors;
 
 import akka.actor.UntypedActor;
 
 public class Greeter extends UntypedActor {
 
     public static enum Msg {
-        GREET, DONE;
+        GREET,
+        DONE
     }
 
     @Override
