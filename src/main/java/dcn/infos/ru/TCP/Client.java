@@ -50,7 +50,7 @@ public class Client extends UntypedActor {
                 getSender().tell(TcpMessage.write(ByteString.fromArray(f.getBytes())), getSelf());
             }
         } else if (msg instanceof Tcp.Received) {
-            getSender().tell(TcpMessage.write(ByteString.fromArray(("Клиент получил сообщение")
+            getSender().tell(TcpMessage.write(ByteString.fromArray(("сервер получил сообщение")
                     .getBytes())), getSelf());
         }
 

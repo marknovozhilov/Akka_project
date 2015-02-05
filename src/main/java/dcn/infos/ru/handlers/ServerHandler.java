@@ -12,6 +12,9 @@ public class ServerHandler extends UntypedActor {
         if (msg instanceof Tcp.Received) {
             final ByteString data = ((Tcp.Received) msg).data();
             System.out.println("Получил (" + this.getClass() + "): " + data.utf8String());
+
+            getSender().tell(TcpMessage.write(ByteString.fromArray("Hello".getBytes())), getSelf());
+
         } else if (msg instanceof Tcp.ConnectionClosed) {
             getContext().stop(getSelf());
         }
