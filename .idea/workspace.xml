@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a96719-10c5-4f81-88e9-b67997a5a1ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/AppSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Kernel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Listener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/MainEnv.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Manager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Player.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/SimplisticHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/main/Main.java" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/main/Main.java" />
+    <list default="true" id="05a96719-10c5-4f81-88e9-b67997a5a1ff" name="Default" comment="В пакете TCP - поигрался с сервером и клиентом, общающимся по TCP&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/handlers/ClientHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/ClientPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Akka_project.iml" afterPath="$PROJECT_DIR$/Akka_project.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Client.java" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Listener.java" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Listener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/MainEnv.java" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/MainEnv.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Manager.java" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Manager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Server.java" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Server.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\Libraries\IdeaProjects\Akka_project\src\main\java\dcn\infos\ru\test\Greeter.java" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Greeter.java" />
-      <change type="MOVED" beforePath="E:\Libraries\IdeaProjects\Akka_project\src\main\java\dcn\infos\ru\test\HelloWorld.java" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/HelloWorld.java" />
+      <change type="MOVED" beforePath="E:\Libraries\IdeaProjects\Akka_project\.idea\libraries\Maven__com_typesafe_akka_akka_actor_2_10_2_3_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_10_2_3_9.xml" />
+      <change type="MOVED" beforePath="E:\Libraries\IdeaProjects\Akka_project\src\main\java\dcn\infos\ru\actors\SimplisticHandler.java" afterPath="$PROJECT_DIR$/src/main/java/dcn/infos/ru/handlers/ServerHandler.java" />
     </list>
     <ignored path="Akka_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,59 +79,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="201" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Greeter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Greeter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="1" selection-start="652" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="765">
-              <folding>
-                <element signature="e#0#952#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorld.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="15" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1156">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1138#1912#0" expanded="true" />
-                <element signature="e#1901#1902#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainEnv.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainEnv.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/MainEnv.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="38" selection-start="279" selection-end="279" vertical-scroll-proportion="0.39872068" vertical-offset="51" max-vertical-offset="799">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="20" column="83" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="52" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="2091">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientPlayer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/ClientPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="13" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="28" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="510">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,7 +118,7 @@
       <file leaf-file-name="Listener.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Listener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="148" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state line="15" column="56" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -147,30 +127,38 @@
       <file leaf-file-name="Manager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="5" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+            <state line="18" column="46" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#306#317#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="28" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.82474226" vertical-offset="93" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Server.java">
+      <file leaf-file-name="ServerHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/handlers/ServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="56" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="884">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="13" column="84" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimplisticHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/SimplisticHandler.java">
+      <file leaf-file-name="ClientHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/handlers/ClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="44" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="15" column="14" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -178,7 +166,7 @@
       <file leaf-file-name="Kernel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Kernel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="7" selection-start="313" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+            <state line="17" column="7" selection-start="313" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -205,6 +193,10 @@
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="marknovozhilov" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Akka_project" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Server.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Client.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -212,26 +204,49 @@
         <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/test/TestUntypeActor.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
         <option value="$PROJECT_DIR$/project/plugins.sbt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/test/Greeter.java" />
         <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/test/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/AppSystem.java" />
         <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Kernel.java" />
         <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/SimplisticHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Listener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/main/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/MainEnv.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/SimplisticHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/ClientPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/handlers/SimplisticHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/handlers/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/handlers/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Listener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Client.java" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="dcn.infos.ru.AkkaProject" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="com.typesafe.akka:akka-actor_2.10:2.3.9" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
       <PATH>
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
@@ -263,6 +278,22 @@
     <option name="y" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="916" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Scala: Scaladoc</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -308,46 +339,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: com.typesafe.akka:akka-actor_2.10:2.3.8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="akka-actor_2.10-2.3.8.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Akka_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: com.typesafe.akka:akka-actor_2.10:2.3.8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="akka-actor_2.10-2.3.8.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="akka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Akka_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Akka_project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -363,10 +354,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,10 +372,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -478,7 +461,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="actors" />
+              <option name="myItemId" value="handlers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -492,14 +475,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -515,7 +514,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Akka_project.iml" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="reference.settings.project.maven.repository.indices" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -523,8 +522,11 @@
     <property name="recentsLimit" value="5" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="FORWARD_ANALIZER" value="false" />
   </component>
-  <component name="RunManager" selected="Application.MainEnv">
+  <component name="RunManager" selected="Application.ClientPlayer">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dcn.infos.ru.main.Main" />
       <option name="VM_PARAMETERS" />
@@ -543,6 +545,22 @@
     </configuration>
     <configuration default="false" name="MainEnv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dcn.infos.ru.TCP.MainEnv" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Akka_project" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ClientPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dcn.infos.ru.TCP.ClientPlayer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -706,14 +724,16 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.MainEnv" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ClientPlayer" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.MainEnv" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.ClientPlayer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainEnv" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -761,7 +781,11 @@
       <created>1420672889237</created>
       <updated>1420672889237</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="В пакете TCP - поигрался с сервером и клиентом, общающимся по TCP&#10;">
+      <created>1420921929251</created>
+      <updated>1420921929251</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -769,7 +793,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -778,19 +802,21 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278272" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26636714" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22143774" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20410784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3278272" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22913992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32401526" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -809,7 +835,9 @@
     <MESSAGE value="Удалил target" />
     <MESSAGE value="тестовый коммит&#10;" />
     <MESSAGE value="Удалил unused imports&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Удалил unused imports&#10;" />
+    <MESSAGE value="В пакете TCP - поигрался с сервером и клиентом, общающимся по TCP&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="В пакете TCP - поигрался с сервером и клиентом, общающимся по TCP&#10;" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -819,6 +847,216 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="39" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/AppSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/MainEnv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="50" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="26" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/ClientPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="47" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="8" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="21" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="612">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#306#317#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="28" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Kernel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="313" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="3" selection-start="470" selection-end="697" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="39" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/AppSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/MainEnv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="81" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="26" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/ClientPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="78" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="8" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="21" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="612">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#306#317#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="28" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Kernel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="313" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="3" selection-start="470" selection-end="697" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="16" selection-start="1651" selection-end="1683" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/AppSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="202" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/MainEnv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="69" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/ClientPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="34" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="8" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="100" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="62" max-vertical-offset="612">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#306#317#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="8" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Kernel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="313" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="26" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1479">
@@ -828,189 +1066,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Greeter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="47" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
-          <folding>
-            <element signature="e#0#952#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="13" column="47" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="10" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Akka_project.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="425">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="59" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
+        <state line="0" column="59" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="30" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.10/2.3.8/akka-actor_2.10-2.3.8.jar!/akka/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="1397" selection-end="1397" vertical-scroll-proportion="18.36" vertical-offset="561" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.10/2.3.8/akka-actor_2.10-2.3.8.jar!/akka/Main$.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="153" selection-end="153" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="153" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="629" column="18" selection-start="25280" selection-end="25280" vertical-scroll-proportion="0.0" vertical-offset="9364" max-vertical-offset="58684">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.10/2.3.8/akka-actor_2.10-2.3.8.jar!/akka/actor/UntypedActor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="19" selection-start="4768" selection-end="4768" vertical-scroll-proportion="-12.64" vertical-offset="534" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor_2.10/2.3.8/akka-actor_2.10-2.3.8.jar!/akka/actor/Actor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="18" selection-start="5560" selection-end="5569" vertical-scroll-proportion="-6.24" vertical-offset="507" max-vertical-offset="3655">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/AppSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding>
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/SimplisticHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="44" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="15" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1156">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1138#1912#0" expanded="true" />
-            <element signature="e#1901#1902#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="274" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="646">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="629" column="18" selection-start="25280" selection-end="25280" vertical-scroll-proportion="0.0" vertical-offset="9364" max-vertical-offset="58684" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="201" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="10" column="0" selection-start="201" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Kernel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="313" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+        <state line="17" column="7" selection-start="313" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="15" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/Greeter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="1" selection-start="652" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="765">
-          <folding>
-            <element signature="e#0#952#0" expanded="true" />
-          </folding>
+        <state line="24" column="1" selection-start="652" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/actors/AppSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Server.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="56" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="884">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="17" column="52" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="2091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/handlers/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="14" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
+        <state line="18" column="46" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#306#317#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Listener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="148" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+        <state line="15" column="56" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/handlers/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="84" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="26" selection-start="1672" selection-end="1672" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="28" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/ClientPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/MainEnv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="38" selection-start="279" selection-end="279" vertical-scroll-proportion="0.39872068" vertical-offset="51" max-vertical-offset="799">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="20" column="83" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dcn/infos/ru/TCP/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="28" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.82474226" vertical-offset="93" max-vertical-offset="731">
+          <folding />
         </state>
       </provider>
     </entry>

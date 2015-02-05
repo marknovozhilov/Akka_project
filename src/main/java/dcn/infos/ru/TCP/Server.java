@@ -8,7 +8,7 @@ import akka.io.Tcp.Bound;
 import akka.io.Tcp.CommandFailed;
 import akka.io.Tcp.Connected;
 import akka.io.TcpMessage;
-import dcn.infos.ru.actors.SimplisticHandler;
+import dcn.infos.ru.handlers.ServerHandler;
 
 import java.net.InetSocketAddress;
 
@@ -31,17 +31,17 @@ public class Server extends UntypedActor {
     public void onReceive(Object msg) throws Exception {
         if (msg instanceof Bound) {
             manager.tell(msg, getSelf());
-
         } else if (msg instanceof CommandFailed) {
             getContext().stop(getSelf());
 
         } else if (msg instanceof Connected) {
             final Connected conn = (Connected) msg;
             manager.tell(conn, getSelf());
+
             final ActorRef handler = getContext().actorOf(
-                    Props.create(SimplisticHandler.class));
+                    Props.create(ServerHandler.class));
             getSender().tell(TcpMessage.register(handler), getSelf());
         }
     }
-
 }
+

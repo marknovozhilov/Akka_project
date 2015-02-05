@@ -1,7 +1,10 @@
 package dcn.infos.ru.TCP;
 
+import akka.actor.Actor;
 import akka.actor.ActorRef;
+import akka.actor.ActorSystem;
 import akka.actor.Props;
+import akka.japi.Creator;
 import dcn.infos.ru.actors.AppSystem;
 import dcn.infos.ru.actors.Kernel;
 
@@ -18,24 +21,9 @@ public class MainEnv {
         final ActorRef listener = appSystem.getSystem().actorOf(Props.create(Listener.class), "listener");
         final ActorRef manager = appSystem.getSystem().actorOf(Props.create(Manager.class), "manager");
 
-        final ActorRef server = appSystem.getSystem().actorOf(Props.create(Server.class, listener), "server");
-        final ActorRef client = appSystem.getSystem().actorOf(Props.create(Client.class,
-                new InetSocketAddress("localhost", 30303), manager), "client");
+        final ActorRef server = appSystem.getSystem().actorOf(Props.create(Server.class, manager), "server");
+        final ActorRef client1 = appSystem.getSystem().actorOf(Props.create(Client.class,
+                new InetSocketAddress("localhost", 30303), listener), "client1");
 
-//        Server server = new Server(manager);
-//        Client client = new Client(new InetSocketAddress("localhost",30303), listener);
-
-
-//        Scanner sc = new Scanner(System.in);
-//        while (sc.hasNext()) {
-//            String f = sc.nextLine();
-//            if (f.equals("exit"))
-//                break;
-//            kernel.tell(f, ActorRef.noSender());
-//
-//        }
-//        appSystem.getSystem().shutdown();
-
-//        akka.Main.main(new String[]{HelloWorld.class.getName()});
     }
 }
